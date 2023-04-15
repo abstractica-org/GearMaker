@@ -1,0 +1,7 @@
+# Compiled class file
+*.class
+
+# Target directory
+/target/
+/OpenSCAD/
+
