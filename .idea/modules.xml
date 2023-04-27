@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AbstracticaProjectTemplate.iml" filepath="$PROJECT_DIR$/AbstracticaProjectTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GearMaker.iml" filepath="$PROJECT_DIR$/GearMaker.iml" />
     </modules>
   </component>
 </project>

@@ -101,10 +101,11 @@ public class InvoluteGears
 		}
 		else
 		{
-			double dist = height * Math.cos((0.5*Math.PI)-gearData.helixAngle);
-			double twist = dist / (gearData.pitchRadius * 2*Math.PI);
+			//double dist = height * Math.cos((0.5*Math.PI)-gearData.helixAngle);
+			double twist = height / (gearData.pitchRadius * Math.tan(0.5*Math.PI - gearData.helixAngle));
+			//double twist = dist / (gearData.pitchRadius * 2*Math.PI);
 			int slices = (int) Math.ceil(height / 0.2);
-			return csg.linearExtrude(height, twist*360, 1.0, slices, centerZ, gear2D);
+			return csg.linearExtrude(height, csg.radians(twist), 1.0, slices, centerZ, gear2D);
 		}
 	}
 

@@ -26,7 +26,7 @@
             <groupId>com.github.abstractica-org</groupId>
             <artifactId>JavaCSG</artifactId>
             <!--suppress MavenModelInspection -->
-            <version>v0.1.0</version>
+            <version>dev-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
